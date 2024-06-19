@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+}
+
+#icon {
+    width: 30px;
+    height: 30px; /* Fixed typo in height */
+}
+
+#logo {
+    width: 200px;
+    height: 60px;
+}
+
+.main-page {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-name-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.company-logo {
+    margin-right: 10px; /* Space between logo and company name */
+}
+
+.company-name {
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+}
+
+.search-section {
+    width: 100%;
+    max-width: 600px;
+}
+
+.search-bar {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 10px 10px 5px;
+}
+
+.info-text,
+.separator,
+.trending-section,
+.social-section,
+.footer-section {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.ai-check-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.ai-check-button {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.separator {
+    height: 1px;
+    margin: 20px 0;
+    background-color: #007bff; /* Change separator background color to blue */
+}
+
+.trending-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.trending-icon svg {
+    width: 24px;
+    height: 24px;
+    stroke: #007bff;
+}
+
+.trending-text {
+    color: #007bff;
+}
+
+.john-chan-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.john-chan-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.john-chan-button {
+    flex: 1;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.john-chan-button:hover {
+    background-color: #404842;
+}
+
+.social-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-text {
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-section {
+    margin-top: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-link {
+    cursor: pointer;
+}
+
+.footer-text {
+    margin-top: 10px;
+    font-size: 12px;
+}
